@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.circle-one{
+  position:absolute;
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  /* bottom: -125px; */
+  top: -55px;
+  left: -120px;
+  /* background-color: #f9f8f8; */
+  border: 20px solid #720026;
+}
+
+.cont{
+  background-color: rgb(250, 249, 247);
+  width: 900px;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+  transform: translateX(100px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px ;
+  margin-left: -0px;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo {
+  font-family: 'Creepster', cursive;;
+  color: #720026;
+  margin-left: 20px;
+  font-size: 15px;
+}
+span{
+  color: rgb(17, 17, 17);
+}
+.main{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  transform: translateX(-250px);
+}
+main ,li{
+font-family: sans-serif;
+font-size: 15px;
+color:#aaa;
+}
+.home{
+  color: #000;
+}
+.image img{
+  width: 10%;
+}
+.image{
+  margin-left: 670px;
+  margin-top: -6px;
+}
+.all{
+  display: flex;
+  gap: 0px;
+  justify-content: space-around;
+}
+.p p{
+  margin-left: 250px;
+  margin-top: 50px;
+  font-size: 12px;
+  color: #aaa;
+}
+.sawiro img{
+  width: 110%;
+  margin-top: -70px;
+  margin-left: 0px;
+}
+h1{
+  font-size: 40px;
+  padding-left: 20px;
+  
+}
+p{
+  /* margin-left: 250px; */
+  margin-top: -10px;
+  font-size: 12px;
+  color: #aaa;
+}
+.social-container {
+  margin: 20px 0;
+}
+
+/* .social-container a {
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 20px;
+  width: 20px;
+      box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.1), 0px 6px 10px 0px rgba(0,0,0,0.1), 0px 1px 18px 0px rgba(0,0,0,0.1);
+} */
+.footer{
+  background-color: #720026;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+.social-container img{
+  width: 15%;
+}
+.icon , h5{
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+}
